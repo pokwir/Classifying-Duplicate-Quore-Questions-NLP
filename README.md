@@ -1,14 +1,26 @@
-# Classifying Duplicate Questions from Quora. 
+# **Classifying Duplicate Questions from Quora.**
 ---
+<br>
+<br>
+<br>
+
+![Alt text](Images/Process.png)
+<br>
+<br>
+<br>
+
 
 # Problem
----
 Over 100 million people visit Quora every month, so it's no surprise that many people ask similarly worded questions. Multiple questions with the same intent can cause seekers to spend more time finding the best answer to their question, and make writers feel they need to answer multiple versions of the same question.
 
 Quora already used a Random Forest Classifier, so a better algorithm would be important to improve performance. 
+<br>
+<br>
 
 # Solution
 In this project, the goal is to model a classifier that can detect if a question is duplicate, or the solution to the same question already exists. I will Model a Random Forest Classifier and compare the results against DNN using NLP techniques. 
+<br>
+<br>
 
 # Process
 
@@ -37,10 +49,20 @@ In this project, the goal is to model a classifier that can detect if a question
   
   7. NLP with DNN
    - A NN with one hidden layer and a output layer was trained as a baseline. As I increased more layers with more activation functions and higher epocs and lower batch sizes, a direct increase in the performance of the model was observed. The final model achieved a 71.1% accuracy. 
+<br>
+<br>
 
 # Results
+![Alt text](Images/EDA1.png)
+![Alt text](Images/EDA2.png)
+![Alt text](Images/EDA3.png)
+![Alt text](Images/EDA4.png)
+![Alt text](Images/EDA5.png)
+![Alt text](Images/EDA6.png)
+![Alt text](Images/EDA7.png)
 
-
+<br>
+<br>
 
 # Reflection. 
 - Further improvement could be done by trainig the model with more data. 
